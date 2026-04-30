@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МавпоВікі — Енциклопедія приматів</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🐒 МавпоВікі</h1>
+            <p>Ваш путівник у світ дивовижних приматів</p>
+            <input type="text" id="search" placeholder="Пошук мавпи...">
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="wiki-grid" id="wikiGrid">
+            <!-- Шимпанзе -->
+            <article class="monkey-card" data-name="шимпанзе">
+                <div class="img-placeholder">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="#5D4037"/>
+                        <circle cx="35" cy="40" r="10" fill="#D7CCC8"/>
+                        <circle cx="65" cy="40" r="10" fill="#D7CCC8"/>
+                        <circle cx="35" cy="40" r="3" fill="#212121"/>
+                        <circle cx="65" cy="40" r="3" fill="#212121"/>
+                        <path d="M 35 65 Q 50 75 65 65" stroke="#212121" stroke-width="2" fill="none"/>
+                    </svg>
+                </div>
+                <h2>Шимпанзе</h2>
+                <p>Найближчі родичі людини. Вони надзвичайно розумні, використовують інструменти та живуть у складних соціальних групах.</p>
+                <ul>
+                    <li><strong>Середовище:</strong> Тропічні ліси Африки</li>
+                    <li><strong>Раціон:</strong> Фрукти, листя, іноді м'ясо</li>
+                </ul>
+            </article>
+
+            <!-- Горила -->
+            <article class="monkey-card" data-name="горила">
+                <div class="img-placeholder">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="15" y="20" width="70" height="70" rx="10" fill="#212121"/>
+                        <circle cx="50" cy="45" r="25" fill="#424242"/>
+                        <circle cx="40" cy="40" r="4" fill="#000"/>
+                        <circle cx="60" cy="40" r="4" fill="#000"/>
+                        <path d="M 40 60 H 60" stroke="#000" stroke-width="3"/>
+                    </svg>
+                </div>
+                <h2>Горила</h2>
+                <p>Найбільші з сучасних приматів. Незважаючи на свій грізний вигляд, вони переважно мирні рослиноїдні тварини.</p>
+                <ul>
+                    <li><strong>Середовище:</strong> Гірські та рівнинні ліси Африки</li>
+                    <li><strong>Раціон:</strong> Бамбук, фрукти, кора</li>
+                </ul>
+            </article>
+
+            <!-- Орангутан -->
+            <article class="monkey-card" data-name="орангутан">
+                <div class="img-placeholder">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="45" fill="#E65100"/>
+                        <ellipse cx="50" cy="55" rx="30" ry="35" fill="#FB8C00"/>
+                        <circle cx="40" cy="45" r="5" fill="#212121"/>
+                        <circle cx="60" cy="45" r="5" fill="#212121"/>
+                    </svg>
+                </div>
+                <h2>Орангутан</h2>
+                <p>"Лісова людина" з Малайзії. Вони ведуть переважно поодинокий спосіб життя на деревах.</p>
+                <ul>
+                    <li><strong>Середовище:</strong> Острови Борнео та Суматра</li>
+                    <li><strong>Раціон:</strong> Фрукти (особливо дуріан)</li>
+                </ul>
+            </article>
+
+            <!-- Ігрунка -->
+            <article class="monkey-card" data-name="ігрунка">
+                <div class="img-placeholder">
+                    <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="30" fill="#795548"/>
+                        <path d="M 20 40 Q 30 20 50 20 T 80 40" stroke="#D7CCC8" stroke-width="10" fill="none"/>
+                        <circle cx="43" cy="50" r="3" fill="#000"/>
+                        <circle cx="57" cy="50" r="3" fill="#000"/>
+                    </svg>
+                </div>
+                <h2>Мармозетка</h2>
+                <p>Одні з найменших приматів у світі. Вони дуже швидкі та мають довгі хвости для балансу.</p>
+                <ul>
+                    <li><strong>Середовище:</strong> Південна Америка</li>
+                    <li><strong>Раціон:</strong> Деревний сік, комахи</li>
+                </ul>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 МавпоВікі. Створено для любителів природи.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
